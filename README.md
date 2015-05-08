@@ -17,7 +17,7 @@ Once you have Package Control installed, activate your Command Palette and choos
 Then, search for **CLIPS Rules* and press Enter. In mere moments you'll be up and running with full syntax highlighting, tab completion and more. Huzzah!
 
 ## About & Credits
-This was originally a fork of <http://blog.iharder.net/2009/04/06/clips-formatting-bundle-for-textmate> and after that a fork of https://github.com/psicomante/CLIPS-sublime.
+This was originally a fork of https://github.com/psicomante/CLIPS-sublime.
 
 ## License ##
 
