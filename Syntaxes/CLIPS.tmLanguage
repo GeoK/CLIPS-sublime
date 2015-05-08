@@ -33,7 +33,7 @@
 			<key>comment</key>
 			<string>Keywords</string>
 			<key>match</key>
-			<string>\b(type|default|allowed-values|slot|not|or|and|assert|retract|gensym|printout|declare|salience|modify|export)\b</string>
+			<string>\b(type|default|allowed-values|allowed-symbols|allowed-strings|allowed-lexemes|allowed-integers|allowed-floats|allowed-numbers|slot|multislot|range|cardinality|not|or|and|assert|retract|gensym|printout|declare|salience|modify|export)\b</string>
 			<key>name</key>
 			<string>keyword.control.clips</string>
 		</dict>
@@ -83,7 +83,7 @@
 			<key>comment</key>
 			<string>Definitions</string>
 			<key>match</key>
-			<string>(^.*(defrule|deffacts|defmodule|deftemplate)[ \t]+)([a-zA-Z0-9_\-]+)</string>
+			<string>(^.*(defrule|deffacts|defmodule|deftemplate|deffunction)[ \t]+)([a-zA-Z0-9_\-]+)</string>
 		</dict>
 		<dict>
 			<key>comment</key>
@@ -105,7 +105,7 @@
 			<key>comment</key>
 			<string>Operators</string>
 			<key>match</key>
-			<string>(|=|&gt;|\+|\*|\/|~|%|neq|eq)</string>
+			<string>(|=|&gt;|\+|\*|\/|~|%|neq|eq|length$|create$|nth$|member$|subsetp|subseq$|delete$|explode$|implode$|replace$|insert$|first$|rest$|delete-member$|replace-member$)</string>
 			<key>name</key>
 			<string>entity.name.function.clips</string>
 		</dict>

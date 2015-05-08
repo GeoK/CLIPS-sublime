@@ -14,7 +14,7 @@ patterns:
   name: comment.line.double-slash.clips
 - comment: Keywords
   name: keyword.control.clips
-  match: "\\b(type|default|allowed-values|slot|not|or|and|assert|retract|gensym|printout|declare|salience|modify|export)\\b"
+  match: "\\b(type|default|allowed-values|allowed-symbols|allowed-strings|allowed-lexemes|allowed-integers|allowed-floats|allowed-numbers|slot|multislot|range|cardinality|not|or|and|assert|retract|gensym|printout|declare|salience|modify|export)\\b"
 - comment: RHD
   name: constant.language.clips
   match: =>
@@ -25,7 +25,7 @@ patterns:
     "1": {name: keyword.clips}
     "2": {name: variable.parameter}
 - comment: Definitions
-  match: "(^.*(defrule|deffacts|defmodule|deftemplate)[ \\t]+)([a-zA-Z0-9_\\-]+)"
+  match: "(^.*(defrule|deffacts|defmodule|deftemplate|deffunction)[ \\t]+)([a-zA-Z0-9_\\-]+)"
   captures:
     "2": {name: entity.name.function.clips}
     "3": {name: variable.clips}
@@ -36,7 +36,7 @@ patterns:
   match: (<-|~|%)
   name: constant.language.clips
 - comment: Operators
-  match: (|=|>|\+|\*|\/|~|%|neq|eq)
+  match: (|=|>|\+|\*|\/|~|%|neq|eq|length$|create$|nth$|member$|subsetp|subseq$|delete$|explode$|implode$|replace$|insert$|first$|rest$|delete-member$|replace-member$)
   name: entity.name.function.clips
 - comment: Operators
   match: (\()(\-)
