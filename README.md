@@ -8,7 +8,7 @@ The origins of the C Language Integrated Production System (CLIPS) date back to 
 
 ## How to install?
 
-You can download a zip file from https://github.com/GeoK/CLIPS-sublime/, and unpack it in the Data/Packages/ folder inside Sublimes's installation folder.
+You can download a zip file from https://github.com/GeoK/CLIPS-sublime/ and unpack it in the Data/Packages/ folder inside Sublimes's installation folder.
 
 ## About & Credits
 This was originally a fork of https://github.com/psicomante/CLIPS-sublime.
