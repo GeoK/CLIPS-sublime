@@ -1,4 +1,5 @@
-#CLIPS Syntax Highlighter for Sublime Text
+# CLIPS Syntax Highlighter for Sublime Text
+### Used in Inteligent Systems 1 course at Faculty of Science, Kragujevac, Serbia
 
 ## What's this?
 
